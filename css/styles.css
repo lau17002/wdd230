@@ -4,6 +4,10 @@ header {
     background-color:rgb(199, 247, 199);
 }
 
+main p {
+    font-style: italic;
+}
+
 h1 {
     grid-column: 2/4;
     font-size: 50px;
