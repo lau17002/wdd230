@@ -1,0 +1,19 @@
+@media only screen and (min-width:32.5em) {
+    h1 {
+        font-size: 75px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p, li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+}
