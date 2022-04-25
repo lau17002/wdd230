@@ -1,0 +1,35 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:rgb(199, 247, 199);
+}
+
+h1 {
+    grid-column: 2/4;
+    font-size: 50px;
+    align-self: center;
+    text-shadow: 2px 2px rgb(170, 169, 169);
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(170, 169, 169);
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+header, footer {
+    background-color:rgb(199, 247, 199);
+    text-align: center;
+    border-radius: 30px;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
