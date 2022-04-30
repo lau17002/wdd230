@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(70, 47, 47);
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: rgb(70, 47, 47);
+    color: whitesmoke;
+    text-align: center;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(219, 187, 145); 
+}
+
+img {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+}
+
+h1, h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgb(146, 103, 73);
+    color: whitesmoke;
+
+}
