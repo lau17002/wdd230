@@ -1,3 +1,7 @@
+body{
+    padding: 1rem;
+}
+
 header {
     background-color: rgb(70, 47, 47);
     padding: .5rem;
