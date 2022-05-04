@@ -1,3 +1,7 @@
+body {
+    max-width: 760px;
+    margin: 0 auto;
+}
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;

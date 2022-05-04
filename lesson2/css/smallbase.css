@@ -1,5 +1,7 @@
 body{
     padding: 1rem;
+    max-width: 760px;
+    margin: 0 auto;
 }
 
 header {
