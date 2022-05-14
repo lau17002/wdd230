@@ -1,0 +1,61 @@
+@media only screen and (min-width:32.5em) {
+    
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 440px 1fr 1fr;
+    }
+
+    .navigation a {
+        font-size: 1.25rem;
+    }
+
+    .ham {
+        width: 76%;
+    }
+
+    .logo img { 
+        width: 150px;
+    }
+
+    .logo {
+        font-size: 1.25rem;
+    }
+
+    .social img {
+        width: 30px;
+    }
+
+    .placeholder-box-hero {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .placeholder-box-news {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .placeholder {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+ 
+    .placeholder-box-join {
+        display: block;
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+
+    .placeholder-box-event {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .placeholder-box-weather {
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+}
