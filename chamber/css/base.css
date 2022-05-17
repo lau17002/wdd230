@@ -12,6 +12,14 @@ header {
     color: #F0EBD8;
 }
 
+#banner {
+    padding: 1rem;
+    text-align: center;
+    background-color: #F0EBD8;
+    color:#1D2D44;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
 nav {
 	margin: 0 auto;
 	background-color: #1D2D44;

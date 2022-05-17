@@ -30,3 +30,14 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 }).format(now);
 
 datefieldUK.innerHTML = `${fulldateUK}`;
+
+//Banner
+
+const banner = document.querySelector('#banner');
+
+if (now.getDay() == 3 || now.getDay() == 2){
+    banner.style.display = "block";
+} else {
+    banner.style.display = "none";
+}
+
