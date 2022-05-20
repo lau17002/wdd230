@@ -2,9 +2,8 @@ const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const list = document.querySelector('.list');
 
-if (input.value != " ") {
-    button.addEventListener("click", () => {
-
+button.addEventListener("click", () => {
+    if (input.value.length != 0) {
         const listItem = document.createElement("li");
         listItem.textContent = input.value;
     
@@ -18,8 +17,11 @@ if (input.value != " ") {
             list.removeChild(listItem);
         });
 
-    input.value = " ";
+        input.value = "";
 
-    input.focus();
-    });
-}
+        input.focus();
+    } else {
+        alert("Please enter a Chapter!")
+    }
+});
+    
