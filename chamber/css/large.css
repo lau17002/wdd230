@@ -77,6 +77,14 @@
 		display: none;
 	}
 
+	.hero-msg {
+		font-size: 2.5rem;
+	}
+
+	.placeholder-spot img {
+		width: 5rem;
+	}
+
 	.placeholder-spot:nth-child(3) {
 		display: block;
 	}

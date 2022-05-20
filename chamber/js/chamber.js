@@ -41,3 +41,22 @@ if (now.getDay() == 3 || now.getDay() == 2){
     banner.style.display = "none";
 }
 
+//Weather
+window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
+window.weatherWidgetConfig.push({
+    selector:".weatherWidget",
+    apiKey:"43JPG95HR4V79SGPDQ86WGSD2", //Sign up for your personal key
+    location:"Rexburg, ID", //Enter an address
+    unitGroup:"us", //"us" or "metric"
+    forecastDays:1, //how many days forecast to show
+    title:"Rexburg, ID", //optional title to show in the 
+    showTitle:true, 
+    showConditions:true
+});
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();

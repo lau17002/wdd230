@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto Flex', sans-serif;
 }
 
+body h1, h2 {
+    text-shadow: .15rem .15rem #3E5C76; 
+}
+
 header {
     background-color: #1D2D44;
     display: grid;
@@ -83,6 +87,55 @@ nav {
 main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 440px;
+    color: #F0EBD8;
+}
+
+main h3 {
+    text-align: center;
+}
+
+.placeholder-box-hero {
+    position: relative;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-msg {
+    position: absolute;
+    right: 3rem;
+    z-index: 1;
+    text-align: right;
+    color: #F0EBD8;
+    text-shadow: .25rem .25rem #3E5C76;
+    font-size: 1.5rem;
+}
+
+.placeholder-box-join {
+    position: relative;
+}
+
+button {
+    background-color: #1D2D44;
+    color: #F0EBD8;
+    width: 8rem;
+    height: 3rem;
+    transition: 0.5s;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.placeholder-box-join p {
+    position: absolute;
+    top: 50%;
+}
+
+button:hover {
+    background-color: #F0EBD8;
+    color: #1D2D44;
 }
 
 .placeholder-box-hero, .placeholder-box-news, .placeholder-box-event, .placeholder-box-weather, .placeholder-box-join {
@@ -104,6 +157,12 @@ main {
     background-color: #748CAB;
     margin: 1rem;
     padding: 1rem;
+    text-align: center;
+}
+
+.placeholder-spot img {
+    width: 3.75rem;
+    padding-bottom: .5rem;
 }
 
 .placeholder-box-join {
