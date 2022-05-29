@@ -46,7 +46,7 @@
     </header>
     <main>
         <div class="placeholder-box-hero">
-            <h1 class="hero-msg">Welcome to Rexburg!</h1>
+            <h2 class="hero-msg">Welcome to Rexburg!</h2>
             <img class="hero" src="images/hero-img.jpg">
         </div>
         <article class="placeholder-box-news">
@@ -60,7 +60,9 @@
         </div>
         <div class="placeholder-box-weather">
             <h3>Weather</h3> 
-            <div class="weatherWidget" ></div>
+            <p>Temperature: <span id="temp">50</span> F</p>
+            <p>Wind Speed: <span id="speed">4.0</span> mph</p>
+            <p>Wind Chill: <span id="chill"></span></p>
         </div>
         <div class="placeholder-box-join">
             <button type="button">Join Now!</button>
@@ -110,5 +112,6 @@
         <p>&copy; <span id="curYear"></span> Rexburg Chamber | Emily A. Lau | WDD 230 Project | <a id="lastMod"></a></p>
     </footer>
     <script src="js/chamber.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
