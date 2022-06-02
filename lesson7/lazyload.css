@@ -1,0 +1,16 @@
+main {
+    display: grid;
+    grid-template-rows: 5rem 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 1rem;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 2s;
+  }
