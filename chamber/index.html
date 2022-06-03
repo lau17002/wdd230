@@ -47,7 +47,11 @@
     <main>
         <div class="placeholder-box-hero">
             <h2 class="hero-msg">Welcome to Rexburg!</h2>
-            <img class="hero" src="images/hero-img.jpg">
+            <picture>
+                <source srcset="images/hero-large.jpg" media="(min-width: 64em)">
+                <source srcset="images/hero-medium.jpg" media="(min-width: 32.5em)">
+                <img class="hero" src="images/hero-img.jpg">
+            </picture>
         </div>
         <article class="placeholder-box-news">
             <h3>News Release</h3>
