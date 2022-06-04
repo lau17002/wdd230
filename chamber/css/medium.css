@@ -82,7 +82,13 @@
         grid-column: 2/3;
     }
 
-    .contact {
-        padding-left: 5rem;
+    .visit-contain{
+		margin-left: 5rem;
+		margin-right: 5rem;
+	}
+
+    #discover p {
+        font-size: 1.1rem;
     }
+
 }

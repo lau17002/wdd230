@@ -94,7 +94,37 @@
 	}
 
 	.contact {
-		padding-left: 20rem;
+		width: 50%;
+		text-align: right;
 	}
 
+	#discover  img:hover {
+		box-shadow: 0 0 50px #3E5C76;
+		transform: scale(1.05);
+	}
+
+	#discover p {
+		font-size: 1.2rem;
+		margin: 4.5rem;
+	}
+	  
+	#discover img {
+		float: left;
+		margin: 1rem;
+	}
+	
+	.demo-grid {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: none;
+	}
+
+	#demographics p {
+		margin: 1rem;
+	}
+	
+	.visit-contain{
+		margin-left: 20rem;
+		margin-right: 20rem;
+	}
+	
 }

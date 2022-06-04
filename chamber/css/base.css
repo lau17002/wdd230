@@ -207,7 +207,7 @@ footer {
 }
 
 footer img {
-    width: 100px;
+    width: auto;
 }
 
 footer .name {
@@ -253,3 +253,55 @@ footer .contact a:hover {
     color: #1D2D44;
     background-color: #748CAB;
 }
+
+#discover {
+    display: flex;
+    flex-direction: column;
+}
+
+#discover p {
+    color: #1D2D44;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+#discover img[data-src] {
+    filter: blur(0.2em);
+  }
+
+#discover img {
+    filter: blur(0em);
+    transition: filter 1s;
+    margin: 1rem;
+    border: 5px solid #1D2D44;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  #demographics {
+    margin: 1rem;
+    background-color: #748CAB;
+    padding: 1rem;
+  }
+
+  #demographics p {
+    color: #F0EBD8;
+    background-color: #1D2D44;    
+    padding: 2rem;
+    text-align: center;
+}
+
+  .demo-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 1rem;
+  }
+
+  .visitCSS {
+    text-align: center;
+    background-color: #F0EBD8;
+    padding: 2rem;
+    border: 5px solid #1D2D44;
+  }
+
