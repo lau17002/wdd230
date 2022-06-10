@@ -36,6 +36,7 @@ tr:nth-child(odd) {
 
 .title th {
     background-color: #bbd4fa;
+    font-size: 1.5rem;
 }
 
 .italic {
