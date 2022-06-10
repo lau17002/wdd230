@@ -9,16 +9,21 @@ table {
     background-color: rgb(218, 213, 213);
 }
 
+tbody {
+    font-size: 1.25rem;
+}
+
 th, td {
-    padding: 1rem;
+    padding: .75rem;
 }
 
 th {
     background-color: #5b96f0;
 }
 
-tr:first-child {
+thead tr:first-child {
     font-size: 2rem;
+    font: bold;
 }
 
 tr:nth-child(even) {
@@ -31,7 +36,6 @@ tr:nth-child(odd) {
 
 .title th {
     background-color: #bbd4fa;
-    font-weight: bold;
 }
 
 .italic {
@@ -44,5 +48,5 @@ tr:nth-child(odd) {
 
 .footer {
     background-color: #5b96f0;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
