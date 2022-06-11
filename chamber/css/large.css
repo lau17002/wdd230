@@ -137,8 +137,8 @@
 	}
 
 	#joinNow {
-		display: block;
 		margin: 1rem;
+		display: block;
 		background-color: #748CAB;
 		padding: 1rem;
 	}
@@ -147,4 +147,18 @@
 		width: 100%;
 	}
 	
+	#membLevel {
+		padding: .5rem;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-columns: none;
+	}
+
+	#membLevel div {
+		padding: .5rem;
+	}
+
+	#membLevel h4 {
+		margin-bottom: 0%;
+	}
+
 }

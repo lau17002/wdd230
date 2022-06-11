@@ -335,7 +335,7 @@ form legend {
     margin: 2rem;
 }
 
-.inputFormat input {
+.inputFormat input, .inputFormat textarea {
     font-size: 1rem;
     border: solid 1px #1D2D44;
     border-radius: .25rem;
@@ -376,6 +376,7 @@ form legend {
     background-color: #1D2D44;
     padding: 1rem;
     margin: 1rem;
+    margin-top: none;
     font-size: 1rem;
 }
 
@@ -385,4 +386,12 @@ form legend {
 
 #joinNow {
     display: none;
+}
+
+#thank {
+    color: #1D2D44;
+}
+
+#thank-div {
+    text-align: center;
 }
