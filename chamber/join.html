@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexburg Chamber of Commerce | Join</title>
+    <meta name="description" content="Join the Rexburg Chamber of Commerce by providing information about your business">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="banner">
+        <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="images/logo.jpg" alt="logo">
+            </picture>
+            <section class="name">
+                <h1>Rexburg</h1>
+                <span>Chamber of Commerce</span>
+            </section>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>    
+        </nav>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/link.jpg" alt="linkedin"></a>
+        </div> 
+        <p id="curDate"></p>
+    </header>
+    <main  id="form-grid">
+        <form method="get" action="thankyou.html">
+            <fieldset class="inputFormat">
+                <legend>Applicant Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Business Position <input type="text" name="position"></label>
+                <label>E-mail* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone Number* <input type="tel" name="phone" required></label>
+            </fieldset>
+            <fieldset class="inputFormat">
+                <legend>Business Information</legend>
+                <label>Name/Title <input type="text" name="businessTitle" required></label>
+                <label>Description <input type="textarea" name="description"></label>
+            </fieldset>
+            <fieldset class="radioFormat">
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="membership" value="Non profit Organization"> Non profit Organization</label>
+                <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+            </fieldset>
+            <label><input type="hidden" id="submitDate" name="submitDate"></label>
+            <div id="submit-div">
+                <input id="submit" type="submit" value="Join the Chamber">
+            </div>
+        </form>
+        <section id="joinNow">
+            <img src="images/join.jpg" alt="join"> 
+        </section>
+        <section id="membLevel"> 
+            <div>
+                <h4>Non profit Organization</h4>
+                <p>Join for free with access to all benefits.</p>
+            </div>
+            <div>
+                <h4>Bronze Membership</h4>
+                <p>$9.99/month to maintain membership. Includes event discounts.</p>
+            </div>
+            <div>
+                <h4>Silver Membership</h4>
+                <p>$19.99/month to maintain membership. Includes event discounts and advertising through page spotlights.</p>
+            </div>
+            <div>
+                <h4>Gold Membership</h4>
+                <p>$29.99/month to maintain membership. Includes event discounts, advertising, and trainings.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footLogo">
+            <picture>
+                <img src="images/logo.jpg" alt="logo">
+            </picture>
+            <section class="name">
+                <h1>Rexburg Chamber of Commerce</h1>
+                <p>1111 S 2nd W</p>
+                <p>Rexburg, ID 83440</p>
+            </section>
+            <section class="contact">
+                <p>rexburgcommerce@gmail.com</p>
+                <p>(208)-888-9090</p> <br>
+                <a href="#">Location Map</a>
+            </section>
+        </div>
+        <hr>
+        <p>&copy; <span id="curYear"></span> Rexburg Chamber | Emily A. Lau | WDD 230 Project | <a id="lastMod"></a></p>
+    </footer>
+    <script src="js/chamber.js"></script>
+</body>
+</html>

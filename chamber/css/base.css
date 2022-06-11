@@ -267,7 +267,7 @@ footer .contact a:hover {
 
 #discover img[data-src] {
     filter: blur(0.2em);
-  }
+}
 
 #discover img {
     filter: blur(0em);
@@ -277,13 +277,13 @@ footer .contact a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto; 
-  }
+}
 
-  #demographics {
+#demographics {
     margin: 1rem;
     background-color: #748CAB;
     padding: 1rem;
-  }
+}
 
   #demographics p {
     color: #F0EBD8;
@@ -292,16 +292,97 @@ footer .contact a:hover {
     text-align: center;
 }
 
-  .demo-grid {
+.demo-grid {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: 1rem;
-  }
+}
 
-  .visitCSS {
+.visitCSS {
     text-align: center;
     background-color: #F0EBD8;
     padding: 2rem;
     border: 5px solid #1D2D44;
-  }
+}
 
+#form-grid {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 40rem;
+    color: #1D2D44;
+}
+
+form {
+    background-color: #F0EBD8;
+    margin: 1rem;
+    border: 5px solid #748CAB;
+}
+
+form fieldset {
+    margin: 2rem;
+    border: 1px solid #3E5C76;
+    border-radius: .25rem;
+}
+
+form legend {
+    color: #3E5C76;
+    margin: 1rem;
+    padding: 0 .5rem;
+}
+
+.inputFormat label {
+    display: block;
+    margin: 2rem;
+}
+
+.inputFormat input {
+    font-size: 1rem;
+    border: solid 1px #1D2D44;
+    border-radius: .25rem;
+    padding: .75rem;
+    width: 100%;
+}
+
+.radioFormat label {
+    display: block;
+    padding: .75rem;
+    margin-left: .5rem;
+}
+
+#submit-div {
+    text-align: center;
+}
+
+#submit {
+    border: none;
+    background-color: #1D2D44;
+    color: #F0EBD8;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#membLevel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #748CAB;
+    color: #F0EBD8;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#membLevel div {
+    background-color: #1D2D44;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+#membLevel h4 {
+    font-size: 1.25rem;
+}
+
+#joinNow {
+    display: none;
+}
