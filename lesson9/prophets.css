@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+main {
+    border: 5px solid white;
+    box-shadow: 0 0 50px rgb(66, 72, 113);
+}
+
+section {
+    background-color: rgb(194, 198, 234);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+img {
+    width: 300px;
+    box-shadow: 0 0 50px rgb(66, 72, 113);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+footer {
+    margin: 3rem;
+}
+
+
+
