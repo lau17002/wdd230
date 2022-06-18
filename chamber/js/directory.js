@@ -7,8 +7,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const business = jsonObject['business'];
-    business.forEach(displayBusiness);
+    const businesses = jsonObject['business'];
+    businesses.forEach(displayBusiness);
   });
 
 function displayBusiness(business) {
@@ -20,7 +20,7 @@ function displayBusiness(business) {
     let picture = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${business.name} - ${business.membership}`;
+    h2.textContent = `${business.name} - ${business.membership} Member`;
     contact.textContent = `${business.number} | ${business.website}`;
     email.textContent = `Email: ${business.email}`;
   
