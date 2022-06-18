@@ -7,8 +7,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const businesses = jsonObject['business'];
-    businesses.forEach(displayBusiness);
+    const business = jsonObject['business'];
+    business.forEach(displayBusiness);
   });
 
 function displayBusiness(business) {
@@ -25,7 +25,7 @@ function displayBusiness(business) {
     email.textContent = `Email: ${business.email}`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    picture.setAttribute('src', prophet.imageurl);
+    picture.setAttribute('src', business.imageurl);
     picture.setAttribute('alt', `${business.name}`);
     picture.setAttribute('loading', 'lazy');
   
