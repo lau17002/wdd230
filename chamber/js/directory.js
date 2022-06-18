@@ -26,7 +26,7 @@ function displayBusiness(business) {
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     picture.setAttribute('src', business.imageurl);
-    picture.setAttribute('alt', `${business.name}`);
+    picture.setAttribute('alt', business.name);
     picture.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
