@@ -15,13 +15,19 @@ function displayBusiness(business) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
+    let member = document.createElement('p');
+    let website = document.createElement('a');
     let contact = document.createElement('p');
     let email = document.createElement('p');
     let picture = document.createElement('img');
+
+    website.setAttribute('href', business.website);
+    website.textContent = (`${business.name}.com`);
   
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${business.name} - ${business.membership} Member`;
-    contact.textContent = `${business.number} | ${business.website}`;
+    h2.textContent = business.name;
+    member.textContent = `${business.membership} Member`
+    contact.textContent = `${business.number} | `;
     email.textContent = `Email: ${business.email}`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
@@ -31,7 +37,9 @@ function displayBusiness(business) {
   
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
+    card.appendChild(member);
     card.appendChild(contact);
+    card.appendChild(website);
     card.appendChild(email);
     card.appendChild(picture);
   

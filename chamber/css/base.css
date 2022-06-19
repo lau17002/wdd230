@@ -84,7 +84,7 @@ nav {
     margin-bottom: 0;
 }
 
-main {
+#home main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 440px;
     color: #F0EBD8;
@@ -394,4 +394,34 @@ form legend {
 
 #thank-div {
     text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#direct {
+    border: 5px solid white;
+    box-shadow: 0 0 50px rgb(66, 72, 113);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    text-align: center;
+}
+
+#direct section {
+    background-color: #748CAB;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#direct img {
+    width: 300px;
+    box-shadow: 0 0 50px rgb(66, 72, 113);
+}
+
+#direct h2, #direct p {
+    margin: 1rem;
+    color: #F0EBD8;
+    text-shadow: none;
+    background-color: #1D2D44;
 }
