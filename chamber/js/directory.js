@@ -37,11 +37,12 @@ function displayBusiness(business) {
   
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
+    card.appendChild(picture);
     card.appendChild(member);
     card.appendChild(contact);
     card.appendChild(website);
     card.appendChild(email);
-    card.appendChild(picture);
+    
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('.cards').appendChild(card);
