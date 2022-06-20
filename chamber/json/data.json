@@ -29,7 +29,7 @@
         "email": "millhollow@bandcmhc.com",
         "number": "208-356-0847",
         "website": "https://www.millhollowrestaurant.com/",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "imageurl": "images/millhollow.jpg",
         "membership": "Silver"
       },
       {
@@ -37,7 +37,7 @@
         "email": "store@mycircleoflove.com",
         "number": "208-356-0058",
         "website": "https://www.mycircleoflove.com/",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "imageurl": "images/circle-of-love.png",
         "membership": "Gold"
       },
       {
@@ -45,7 +45,7 @@
         "email": "rexburgreescape@gmail.com",
         "number": "208-303-7513",
         "website": "https://www.rexburgre-escape.com/",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "imageurl": "images/escape.png",
         "membership": "Silver"
       },
       {
@@ -53,7 +53,7 @@
         "email": "splatterlab@gmail.com",
         "number": "(208) 656-5819",
         "website": "https://splatterlab.com/",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "imageurl": "images/splatter.jfif",
         "membership": "Gold"
       },
       {
@@ -61,7 +61,7 @@
         "email": "matt@frescokitchengrill.com",
         "number": "208-497-0480",
         "website": "https://frescokitchengrill.com/",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "imageurl": "images/fresco.jfif",
         "membership": "Silver"
       },
       {
@@ -69,7 +69,7 @@
         "email": "Rexburg@HeberHatchets.com",
         "number": "208-656-5884",
         "website": "https://heberhatchets.com/axe-throwing-rexburg/",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "imageurl": "images/hatchet.jpg",
         "membership": "Bronze"
       }
     ]
