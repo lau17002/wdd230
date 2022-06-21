@@ -343,7 +343,7 @@ form legend {
     width: 100%;
 }
 
-.inputFormat p {
+.inputFormat span {
     font-size: .75rem;
     margin-left: .5rem;
 }

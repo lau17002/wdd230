@@ -51,7 +51,7 @@
                 <legend>Applicant Information</legend>
                 <label>First Name* <input type="text" name="fname" required></label>
                 <label>Last Name* <input type="text" name="lname" required></label>
-                <label>Business Position <input type="text" name="position" pattern="[A-Z a-z -]{7,}"><p>*only accepts characters, spaces, and hyphens - must be at least 7 spaces.</p></label>
+                <label>Business Position <input type="text" name="position" pattern="[A-Z a-z -]{7,}"><span>*only accepts characters, spaces, and hyphens - must be at least 7 spaces.</span></label>
                 <label>E-mail* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label>Phone Number* <input type="tel" name="phone" required></label>
             </fieldset>
@@ -72,9 +72,9 @@
                 <input id="submit" type="submit" value="Join the Chamber">
             </div>
         </form>
-        <section id="joinNow">
+        <div id="joinNow">
             <img src="images/join.jpg" alt="join"> 
-        </section>
+        </div>
         <section id="membLevel"> 
             <div>
                 <h4>Non profit Organization</h4>
@@ -104,11 +104,11 @@
                 <p>1111 S 2nd W</p>
                 <p>Rexburg, ID 83440</p>
             </section>
-            <section class="contact">
+            <div class="contact">
                 <p>rexburgcommerce@gmail.com</p>
                 <p>(208)-888-9090</p> <br>
                 <a href="#">Location Map</a>
-            </section>
+            </div>
         </div>
         <hr>
         <p>&copy; <span id="curYear"></span> Rexburg Chamber | Emily A. Lau | WDD 230 Project | <a id="lastMod"></a></p>
