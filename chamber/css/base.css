@@ -414,14 +414,40 @@ form legend {
     margin: 1rem;
 }
 
-#direct img {
-    width: 300px;
-    box-shadow: 0 0 50px rgb(66, 72, 113);
+.contain {
+    background-color: #1D2D44;
+    margin: 1rem;
 }
 
-#direct h2, #direct p {
+#direct h2 {
     margin: 1rem;
+    padding: 1rem;
     color: #F0EBD8;
-    text-shadow: none;
+    font-size: 2rem;
     background-color: #1D2D44;
+}
+
+#direct p {
+    color: #F0EBD8;
+    padding: .5rem;
+}
+
+#direct a {
+    color: #F0EBD8;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+#direct a:hover {
+    color: #1D2D44;
+    background-color: #F0EBD8;
+}
+
+#direct a, #direct p:nth-child(2) {
+    display: inline;
+}
+
+#direct img {
+    width: 180px;
+    box-shadow: 0 0 50px rgb(66, 72, 113);
 }
