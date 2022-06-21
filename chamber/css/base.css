@@ -84,9 +84,9 @@ nav {
     margin-bottom: 0;
 }
 
-#home main {
+#home {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 440px;
+    grid-template-rows: 1fr 1fr 1fr;
     color: #F0EBD8;
 }
 
@@ -285,7 +285,7 @@ footer .contact a:hover {
     padding: 1rem;
 }
 
-  #demographics p {
+#demographics p {
     color: #F0EBD8;
     background-color: #1D2D44;    
     padding: 2rem;
@@ -343,10 +343,21 @@ form legend {
     width: 100%;
 }
 
+.inputFormat p {
+    font-size: .75rem;
+    margin-left: .5rem;
+}
+
 .radioFormat label {
     display: block;
     padding: .75rem;
     margin-left: .5rem;
+}
+
+.radioFormat input {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
 }
 
 #submit-div {
@@ -376,7 +387,6 @@ form legend {
     background-color: #1D2D44;
     padding: 1rem;
     margin: 1rem;
-    margin-top: none;
     font-size: 1rem;
 }
 
@@ -394,6 +404,8 @@ form legend {
 
 #thank-div {
     text-align: center;
+    margin: 5rem;
+    font-size: 1.5rem;
 }
 
 .cards {

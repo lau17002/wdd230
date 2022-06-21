@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rexburg Chamber of Commerce | Join</title>
     <meta name="description" content="Join the Rexburg Chamber of Commerce by providing information about your business">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -32,6 +32,7 @@
         <nav>
             <ul class="navigation">
                 <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
@@ -50,7 +51,7 @@
                 <legend>Applicant Information</legend>
                 <label>First Name* <input type="text" name="fname" required></label>
                 <label>Last Name* <input type="text" name="lname" required></label>
-                <label>Business Position <input type="text" name="position"></label>
+                <label>Business Position <input type="text" name="position" pattern="[A-Z a-z -]{7,}"><p>*only accepts characters, spaces, and hyphens - must be at least 7 spaces.</p></label>
                 <label>E-mail* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label>Phone Number* <input type="tel" name="phone" required></label>
             </fieldset>
