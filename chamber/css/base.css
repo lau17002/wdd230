@@ -114,28 +114,25 @@ main h3 {
 }
 
 .placeholder-box-join {
-    position: relative;
+    text-align: center;
 }
 
-button {
+.placeholder-box-join a {
     background-color: #1D2D44;
     color: #F0EBD8;
-    width: 8rem;
-    height: 3rem;
+    text-decoration: none;
     transition: 0.5s;
-    position: absolute;
-    left: 25%;
-    top: 25%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.placeholder-box-join a:hover {
+    background-color: #F0EBD8;
+    color: #1D2D44;
 }
 
 .placeholder-box-join p {
-    position: absolute;
-    top: 50%;
-}
-
-button:hover {
-    background-color: #F0EBD8;
-    color: #1D2D44;
+    color: #F0EBD8;
 }
 
 .placeholder-box-hero, .placeholder-box-news, .placeholder-box-event, .placeholder-box-weather, .placeholder-box-join {
@@ -211,7 +208,7 @@ footer img {
 }
 
 footer .name {
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
 }
 
@@ -222,7 +219,7 @@ footer h1, p {
 
 .footLogo {
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 footer .name {
@@ -238,7 +235,6 @@ footer .name {
 
 .contact {
     padding: 1.5rem;
-    float: right;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 1rem;
 }

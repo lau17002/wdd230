@@ -87,6 +87,24 @@
 		margin-right: 5rem;
 	}
 
+    .footLogo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer .name {
+        text-align: left;
+    }
+
+    .logoName {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact {
+        text-align: right;
+    }
+
     #discover p {
         font-size: 1.1rem;
     }
