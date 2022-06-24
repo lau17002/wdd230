@@ -123,8 +123,11 @@ main h3 {
     color: #F0EBD8;
     text-decoration: none;
     transition: 0.5s;
-    margin: 2rem;
     padding: 1rem;
+}
+
+.joinContain {
+    margin: 1rem;
 }
 
 .placeholder-box-join a:hover {
@@ -475,4 +478,19 @@ form legend {
 
 .placeholder-box-weather {
     text-align: center;
+}
+
+.weatherLink {
+    color: #F0EBD8;
+    text-decoration: none;
+    padding: .75rem;
+}
+
+.weatherContain {
+    margin: 1rem;
+}
+
+.weatherLink:hover {
+    background-color: #F0EBD8;
+    color: #1D2D44;
 }
