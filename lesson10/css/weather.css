@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    max-width: 760px;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+}
+
+div {
+    background-color: rgb(172, 235, 250);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+p {
+    padding-bottom: 1.75rem;
+}
