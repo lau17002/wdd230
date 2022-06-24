@@ -57,21 +57,6 @@
         grid-row: 4/5;
     }
 
-    button {
-        background-color: #1D2D44;
-        color: #F0EBD8;
-        width: 90%;
-        height: 3rem;
-        left: 5%;
-        top: 25%;
-    }
-    
-    .placeholder-box-join p {
-        top: 50%;
-        left: 5%;
-        font-size: 1.25rem;
-    }
-
     .placeholder-box-event {
         grid-row: 5/6;
         grid-column: 1/2;

@@ -65,8 +65,13 @@
         </div>
         <div class="placeholder-box-weather">
             <h3>Weather</h3> 
-            <p>Temperature: <span id="temp">50</span> F</p>
-            <p>Wind Speed: <span id="speed">4.0</span> mph</p>
+            <div id="weather-grid">
+                <img src="" alt="" id="weather-icon">
+                <p><span id="temp"></span> °F</p>
+            </div>    
+            <figcaption></figcaption>
+            <hr>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
             <p>Wind Chill: <span id="chill"></span></p>
         </div>
         <div class="placeholder-box-join">
@@ -120,5 +125,6 @@
     </footer>
     <script src="js/chamber.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>

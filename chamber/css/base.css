@@ -115,6 +115,7 @@ main h3 {
 
 .placeholder-box-join {
     text-align: center;
+    margin: 1rem;
 }
 
 .placeholder-box-join a {
@@ -122,8 +123,8 @@ main h3 {
     color: #F0EBD8;
     text-decoration: none;
     transition: 0.5s;
+    margin: 2rem;
     padding: 1rem;
-    margin: 1rem;
 }
 
 .placeholder-box-join a:hover {
@@ -133,10 +134,11 @@ main h3 {
 
 .placeholder-box-join p {
     color: #F0EBD8;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .placeholder-box-hero, .placeholder-box-news, .placeholder-box-event, .placeholder-box-weather, .placeholder-box-join {
-    height: 200px;
     margin: 1rem;
     padding: 1rem;
     background-color: #748CAB;
@@ -458,4 +460,19 @@ form legend {
 #direct img {
     width: 180px;
     box-shadow: 0 0 50px rgb(66, 72, 113);
+}
+
+#weather-icon {
+    width: auto;
+}
+
+#weather-grid {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-box-weather {
+    text-align: center;
 }
