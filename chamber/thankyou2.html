@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rexburg Chamber of Commerce | Join</title>
     <meta name="description" content="Join the Rexburg Chamber of Commerce by providing information about your business">
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -45,54 +45,10 @@
         </div> 
         <p id="curDate"></p>
     </header>
-    <main  id="form-grid">
-        <form method="get" action="thankyou.html">
-            <fieldset class="inputFormat">
-                <legend>Applicant Information</legend>
-                <label>First Name* <input type="text" name="fname" required></label>
-                <label>Last Name* <input type="text" name="lname" required></label>
-                <label>Business Position <input type="text" name="position" pattern="[A-Z a-z -]{7,}"><span>*only accepts characters, spaces, and hyphens - must be at least 7 spaces.</span></label>
-                <label>E-mail* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label>Phone Number* <input type="tel" name="phone" required></label>
-            </fieldset>
-            <fieldset class="inputFormat">
-                <legend>Business Information</legend>
-                <label>Name/Title <input type="text" name="businessTitle" required></label>
-                <label>Description <textarea rows="3" name="description"></textarea></label>
-            </fieldset>
-            <fieldset class="radioFormat">
-                <legend>Membership Level</legend>
-                <label><input type="radio" name="membership" value="Non profit Organization"> Non profit Organization</label>
-                <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
-            </fieldset>
-            <label><input type="hidden" id="submitDate" name="submitDate"></label>
-            <div id="submit-div">
-                <input id="submit" type="submit" value="Join the Chamber">
-            </div>
-        </form>
-        <div id="joinNow">
-            <img src="images/join.jpg" alt="join"> 
+    <main>
+        <div id="thank-div">   
+            <p id="thank">Thank you for your question, it will be answered shortly.</p>
         </div>
-        <section id="membLevel"> 
-            <div>
-                <h4>Non profit Organization</h4>
-                <p>Join for free with access to all benefits.</p>
-            </div>
-            <div>
-                <h4>Bronze Membership</h4>
-                <p>$9.99/month to maintain membership. Includes event discounts.</p>
-            </div>
-            <div>
-                <h4>Silver Membership</h4>
-                <p>$19.99/month to maintain membership. Includes event discounts and advertising through page spotlights.</p>
-            </div>
-            <div>
-                <h4>Gold Membership</h4>
-                <p>$29.99/month to maintain membership. Includes event discounts, advertising, and trainings.</p>
-            </div>
-        </section>
     </main>
     <footer>
         <div class="footLogo">

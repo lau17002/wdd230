@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rexburg Chamber of Commerce | Directory</title>
-    <meta name="description" content="List of local businesses containing phone number, website, and email.">
+    <title>Rexburg Chamber of Commerce | Contact</title>
+    <meta name="description" content="Contact the Rexburg Chamber of Commerce about questions or joining.">
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
@@ -36,7 +36,7 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>    
         </nav>
         <div class="social">
@@ -45,8 +45,36 @@
         </div> 
         <p id="curDate"></p>
     </header>
-    <main id="direct">
-        <div class="cards"></div>
+    <main>
+        <div id="contact">
+            <div id="contactInfo">
+                <h2>Contact Information</h2>
+                <p>Phone number: (208)-888-9090</p>
+                <p>Email: rexburgcommerce@gmail.com</p>
+                <hr>
+                <h2>Location</h2>
+                <p>1111 S 2nd W</p>
+                <p>Rexburg, ID 83440</p> <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.135205056777!2d-111.7917301851814!3d43.81155485019556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b059c62410f%3A0x4564c8b8740baff4!2s1111%20S%202nd%20St%20W%2C%20Rexburg%2C%20ID%2083440!5e0!3m2!1sen!2sus!4v1656788060160!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form method="get" action="thankyou2.html">
+                <fieldset class="inputFormat">
+                    <legend>Question Input</legend>
+                    <label>Questions, concerns, comments <textarea rows="3" name="description" required></textarea></label>
+                </fieldset>
+                <fieldset class="radioFormat">
+                    <legend>Contact</legend>
+                    <p>How would you like to be contacted? Please select all that apply.</p>
+                    <label><input type="checkbox" name="contact" value="email"> Email</label>
+                    <label><input type="checkbox" name="membership" value="call"> Phone call</label>
+                    <label><input type="checkbox" name="membership" value="text"> Text message</label>
+                </fieldset>
+                <label><input type="hidden" id="submitDate" name="submitDate"></label>
+                <div id="submit-div">
+                    <input id="submit" type="submit" value="Submit your Question">
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="footLogo">
