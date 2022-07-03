@@ -6,6 +6,7 @@
         "number": "208-356-8955",
         "website": "https://stores.claires.com/us/id/rexurg/673.html",
         "imageurl": "images/claire.png",
+        "title": "New trends and styles, get your ears pierced!",
         "membership": "Silver"
       },
       {
@@ -14,6 +15,7 @@
         "number": "208-359-2534",
         "website": "http://www.runnin4sweets.com/",
         "imageurl": "images/sweets.png",
+        "title": "The best candy and sodas you can find anywhere!",
         "membership": "Bronze"
       },
       {
@@ -22,6 +24,7 @@
         "number": "208-715-1394",
         "website": "https://soup-for-you-llc.business.site/#details",
         "imageurl": "images/soup.jpg",
+        "title": "Delicious from Scratch Soups and Breads.",
         "membership": "Bronze"
       },
       {
@@ -30,6 +33,7 @@
         "number": "208-356-0847",
         "website": "https://www.millhollowrestaurant.com/",
         "imageurl": "images/millhollow.jpg",
+        "title": "Warm, homey restaurant.",
         "membership": "Silver"
       },
       {
@@ -38,6 +42,7 @@
         "number": "208-356-0058",
         "website": "https://www.mycircleoflove.com/",
         "imageurl": "images/circle-of-love.png",
+        "title": "Bridal salon offering wedding gowns & tuxedos.",
         "membership": "Gold"
       },
       {
@@ -46,6 +51,7 @@
         "number": "208-303-7513",
         "website": "https://www.rexburgre-escape.com/",
         "imageurl": "images/escape.jpg",
+        "title": "Escape rooms of all types!",
         "membership": "Silver"
       },
       {
@@ -54,6 +60,7 @@
         "number": "(208) 656-5819",
         "website": "https://splatterlab.com/",
         "imageurl": "images/splatter.jfif",
+        "title": "Get messy through splatter painting in our unique rooms!",
         "membership": "Gold"
       },
       {
@@ -62,7 +69,8 @@
         "number": "208-497-0480",
         "website": "https://frescokitchengrill.com/",
         "imageurl": "images/fresco.jpg",
-        "membership": "Silver"
+        "title": "Offering artisan pizzas, salads & sandwiches",
+        "membership": "Gold"
       },
       {
         "name": "Heber Hatchets",
@@ -70,6 +78,7 @@
         "number": "208-656-5884",
         "website": "https://heberhatchets.com/axe-throwing-rexburg/",
         "imageurl": "images/hatchet.jpg",
+        "title": "Bring out your inner lumberjack or lumberjill!",
         "membership": "Bronze"
       }
     ]
