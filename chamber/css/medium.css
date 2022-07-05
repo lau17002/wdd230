@@ -27,6 +27,7 @@
 
     .hero-msg {
         font-size: 1.75rem;
+        text-shadow: none;
     }
 
     .placeholder-spot img {
