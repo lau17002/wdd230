@@ -31,7 +31,6 @@ header {
     text-align: center;
     background-color: #F0EBD8;
     color:#1D2D44;
-    font-family: 'Roboto Flex', sans-serif;
 }
 
 nav {
@@ -76,9 +75,6 @@ nav {
     text-align: center;
     background-color: #3E5C76;
     padding: 20px;
-    font-family: 'Roboto Flex', sans-serif;
-    margin-left: 1rem;
-    margin-right: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -109,8 +105,6 @@ main h3 {
 .hero-msg {
     position: absolute;
     right: 3rem;
-    z-index: 1;
-    text-align: right;
     color: #1D2D44;
     text-shadow: .25rem .25rem #F0EBD8;
     font-size: 1.5rem;
@@ -188,7 +182,6 @@ footer {
 	display: flex;
 	align-items: center;
     font-family: 'Teko';
-    font-size: 1rem;
 }
 
 .social img {
@@ -277,7 +270,6 @@ footer .contact a {
 .demo-grid {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin: 1rem;
 }
 
 .visitCSS {
@@ -396,9 +388,6 @@ form legend {
 }
 
 #direct {
-    border: 5px solid white;
-    box-shadow: 0 0 50px rgb(66, 72, 113);
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     text-align: center;
 }
 
