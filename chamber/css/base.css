@@ -145,7 +145,7 @@ main h3 {
 
 .spotlight {
     display: grid;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 1fr 1fr;
     margin: 1rem;
     padding: .25rem;
     background-color: #748CAB;
@@ -204,15 +204,6 @@ footer {
     grid-row: 1/2;
 }
 
-footer img {
-    width: auto;
-}
-
-footer .name {
-    text-align: center;
-    font-size: 1rem;
-}
-
 footer h1, p {
     margin-top: 0;
     margin-bottom: 0;
@@ -224,8 +215,9 @@ footer h1, p {
 }
 
 footer .name {
+    text-align: center;
     font-family: 'Teko';
-    font-size: .75rem;
+    font-size: 1rem;
 }
 
 .footLogo img {
