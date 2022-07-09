@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites | Home</title>
+    <meta name="description" content="Temple Inn & Suites Homepage has information about weather, open houses, and highlights a temple that you can make a reservation for.">
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="fh-grid">
+            <div class="logo-flex">            
+                <img src="images/temple-logo.jpg" alt="Temple Inn & Suites logo">
+                <h1>Temple Inn & Suites</h1>
+            </div>
+            <div class = "social-link">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook logo"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="images/link.png" alt="linkedin logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.png" alt="instagram logo"></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="temple-info">
+            <img src="images/sandiego.jpeg" alt="San Diego, CA temple">
+            <div>
+                <h3>San Diego, CA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusamus veritatis consequuntur repellat distinctio hic blanditiis repellendus molestias optio obcaecati dolore dolores harum consectetur quisquam modi eius laborum atque maxime.</p>
+                <a href="reservation.html">Make a reservation!</a>
+            </div>    
+        </section>
+        <section>
+            <div class="colored forecast">
+                <h3>3-day Forecast</h3>
+            </div>
+        </section>
+        <section class="home-grid">
+            <div class="colored open-grid">
+                <h3>Open House!</h3>
+                <div>
+                    <img src="images/st george.jpeg" alt="St George Utah temple">
+                    <h4>St George, Utah</h4>
+                </div>
+                <p>Date: January 15th, 2023</p>
+                <p>The St. George temple has been under construction since 2018.</p>
+            </div>
+            <div class="colored weather">
+                <h3>Current Weather</h3>
+                <p id="weatherName"></p>
+                <div class="weather-grid">
+                    <img src="" alt="" id="weather-icon">
+                    <p><span id="temp"></span> °F</p>
+                </div> 
+                <hr>
+                <p><span id="cond"></span></p>
+                <p>Humidity: <span id="humid"></span>%</p>
+            </div>
+            <div class="colored">   
+                <h3>Social Media</h3>
+                <p>Check us out on Instagram, LinkedIn, and Facebook. We will be posting new locations, special promotions, and stories about our customers!</p>
+                <ul class="social-align">
+                    <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="fh-grid">
+            <div class="logo-flex">
+                <img src="images/temple-logo.jpg" alt="Temple Inn & Suites logo">
+                <h2>Temple Inn & Suites</h2>
+            </div>
+            <div class="contact">
+                <p>templeinn&suites@gmail.com</p>
+                <p>208-888-8888</p>
+                <a href="https://goo.gl/maps/PXVCJBKTwnTcSYw37">Location Map</a>
+            </div>
+        </div>
+        <hr>
+        <p class="foot-info">&copy; <span id="curYear"></span> Temple Inn & Suites | Emily A. Lau | <span id="lastMod"></span></p>
+    </footer>
+    <script src="js/temple.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
