@@ -63,6 +63,14 @@ li a {
     grid-template-columns: 1fr 1fr;
 }
 
+footer img {
+    width: 4rem;
+}
+
+footer a {
+    padding: .5rem;
+}
+
 .logo-flex {
     display: flex;
     align-items: center;
@@ -83,10 +91,8 @@ li a {
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
     text-align: right;
-    margin: 1rem;
+    margin: .5rem;
 }
 
 .contact p {
@@ -97,6 +103,7 @@ li a {
 .foot-info {
     text-align: center;
     margin: 0rem;
+    padding: .5rem;
 }
 
 .temple-info {
@@ -156,4 +163,23 @@ li a {
 
 .weather p {
     margin: 0rem;
+}
+
+.temple-cards {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.temple-cards section {
+    background-color: #FCF6EB;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.temple-cards img {
+    width: 75%;
 }

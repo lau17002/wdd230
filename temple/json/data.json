@@ -1,0 +1,88 @@
+{
+    "temple": [
+      {
+        "name": "San Diego",
+        "number": "858-622-0991",
+        "street": "7474 Charman Dr",
+        "city": "San Diego, CA",
+        "code": "92122",
+        "announced": "April 7th, 1984",
+        "ground": "February 27th, 1988",
+        "dedicate": "April 25th, 1993",
+        "closure": "October 1, 2022",
+        "imageurl": "images/sandiego.jpeg",
+        "rent": "available",
+        "index": "1"
+      },
+      {
+        "name": "Bountiful",
+        "number": "801-296-2100",
+        "street": "640 S Bountiful Blvd",
+        "city": "Bountiful, UT",
+        "code": "84010",
+        "announced": "February 2nd, 1990",
+        "ground": "May 2nd, 1992",
+        "dedicate": "January 8th, 1995",
+        "closure": "July 23rd, 2022",
+        "imageurl": "images/bountiful.jpeg",
+        "rent": "available",
+        "index": "2"
+      },
+      {
+        "name": "Fresno",
+        "number": "559-437-9451",
+        "street": "6290 N Valentine Ave",
+        "city": "Fresno, CA",
+        "code": "93711",
+        "announced": "January 8th, 1999",
+        "ground": "March 20th, 1999",
+        "dedicate": "April 9th, 2000",
+        "closure": "September 26th, 2022",
+        "imageurl": "images/fresno.jpeg",
+        "rent": "not available",
+        "index": "3"
+      },
+      {
+        "name": "Los Angeles",
+        "number": "310-474-5569",
+        "street": "10777 Santa Monica Blvd",
+        "city": "Los Angeles, CA",
+        "code": "90025",
+        "announced": "March 6th, 1937",
+        "ground": "September 22nd, 1951",
+        "dedicate": "March 11th, 1956",
+        "closure": "October 1st, 2022",
+        "imageurl": "images/angeles.jpg",
+        "rent": "available",
+        "index": "4"
+      },
+      {
+        "name": "Sacramento",
+        "number": "916-357-5870",
+        "street": "2110 California Cir",
+        "city": "Rancho Cordova, CA",
+        "code": "95742",
+        "announced": "April 21st, 2001",
+        "ground": "August 22nd, 2004",
+        "dedicate": "September 3rd, 2006",
+        "closure": "August 2nd, 2022",
+        "imageurl": "images/sacramento.jpeg",
+        "rent": "not available",
+        "index": "5"
+      },
+      {
+        "name": "Redlands",
+        "number": "909-389-7369",
+        "street": "1761 Fifth Ave",
+        "city": "Redlands, CA",
+        "code": "92374",
+        "announced": "April 21st, 2001",
+        "ground": "December 1st, 2001",
+        "dedicate": "September 14th, 2003",
+        "closure": "October 1st, 2022",
+        "imageurl": "images/redland.jpeg",
+        "rent": "not available",
+        "index": "6"
+      }
+    ]
+}
