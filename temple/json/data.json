@@ -10,7 +10,9 @@
         "ground": "February 27th, 1988",
         "dedicate": "April 25th, 1993",
         "closure": "October 1, 2022",
-        "imageurl": "images/sandiego.jpeg",
+        "imageurl": "images/sandiego.jpg",
+        "imageurlMedium": "images/sandiego-medium.jpg",
+        "imageurlLarge": "images/sandiego-large.jpg",
         "rent": "available",
         "index": "1"
       },
@@ -24,7 +26,9 @@
         "ground": "May 2nd, 1992",
         "dedicate": "January 8th, 1995",
         "closure": "July 23rd, 2022",
-        "imageurl": "images/bountiful.jpeg",
+        "imageurl": "images/bountiful.jpg",
+        "imageurlMedium": "images/bountiful-medium.jpg",
+        "imageurlLarge": "images/bountiful-large.jpg",
         "rent": "available",
         "index": "2"
       },
@@ -38,7 +42,9 @@
         "ground": "March 20th, 1999",
         "dedicate": "April 9th, 2000",
         "closure": "September 26th, 2022",
-        "imageurl": "images/fresno.jpeg",
+        "imageurl": "images/fresno.jpg",
+        "imageurlMedium": "images/fresno-medium.jpg",
+        "imageurlLarge": "images/fresno-large.jpg",
         "rent": "not available",
         "index": "3"
       },
@@ -53,6 +59,8 @@
         "dedicate": "March 11th, 1956",
         "closure": "October 1st, 2022",
         "imageurl": "images/angeles.jpg",
+        "imageurlMedium": "images/angeles-medium.jpg",
+        "imageurlLarge": "images/angeles-large.jpg",
         "rent": "available",
         "index": "4"
       },
@@ -66,7 +74,9 @@
         "ground": "August 22nd, 2004",
         "dedicate": "September 3rd, 2006",
         "closure": "August 2nd, 2022",
-        "imageurl": "images/sacramento.jpeg",
+        "imageurl": "images/sacramento.jpg",
+        "imageurlMedium": "images/sacramento-medium.jpg",
+        "imageurlLarge": "images/sacramento-large.jpg",
         "rent": "not available",
         "index": "5"
       },
@@ -80,7 +90,9 @@
         "ground": "December 1st, 2001",
         "dedicate": "September 14th, 2003",
         "closure": "October 1st, 2022",
-        "imageurl": "images/redland.jpeg",
+        "imageurl": "images/redland.jpg",
+        "imageurlMedium": "images/redland-medium.jpg",
+        "imageurlLarge": "images/redland-large.jpg",
         "rent": "not available",
         "index": "6"
       }

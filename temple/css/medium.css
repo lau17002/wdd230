@@ -1,7 +1,64 @@
 @media only screen and (min-width:32.5em) {
 
+    header, h1, h2 {
+        display: block
+    }
 
+    .h-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    a:hover, button:hover, .button:hover {
+        background-color: #D8D6D5;
+        color: #090302;
+    }
+
+    .navigation {
+        margin: 0rem;
+    }
+
+    .logo-flex {
+        flex-direction: row;
+    }
+
+    .media {
+        display: none;
+    }
+
+    .contact {
+        text-align: right;
+    }
+
+    .f-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .social-link {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
     
+    .social-link a {
+        background-color: #F6E1B7;
+    }
+    
+    .social-link img {
+        width: 2rem;
+    }
+
+    .forecast {
+        display: flex;
+    }
+
+    #services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem;
+    }
 }
+
 
 

@@ -9,3 +9,11 @@ try {
 }
 
 document.querySelector('#lastMod').textContent = `Last Modification: ${document.lastModified}`;
+
+//Responsive nav
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navigation')
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};

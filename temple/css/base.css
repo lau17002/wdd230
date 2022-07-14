@@ -7,6 +7,11 @@ header, footer {
     background-color: #F6E1B7;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Teko', sans-serif;
     margin-top: 0rem;
@@ -14,7 +19,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -25,7 +30,7 @@ h4 {
     font-size: 1.25rem;
 }
 
-p, a {
+p, a, fieldset, input {
     font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -33,22 +38,20 @@ p {
     color: #090302;
 }
 
-a {
+a, button, .button {
     text-decoration: none;
     background-color: #857E7B;
     color: #FCF6EB;
     padding: 1rem;
+    border: none;
 }
 
-a:hover {
-    background-color: #D8D6D5;
-    color: #090302;
+button, .button {
+    padding: .5rem;
 }
 
 ul {
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 0rem;
 }
 
@@ -58,9 +61,31 @@ li a {
     font-size: 1rem;
 }
 
-.fh-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li, h1, h2 {
+	display: none;
+}
+
+.navigation {
+    margin: 1rem;
+}
+
+.responsive li {
+	display: block;
+}
+
+.f-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: fixed;
+    bottom: 0;
 }
 
 footer img {
@@ -73,25 +98,16 @@ footer a {
 
 .logo-flex {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .social-link {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-.social-link a {
-    background-color: #F6E1B7;
-}
-
-.social-link img {
-    width: 2rem;
+    display: none;
 }
 
 .contact {
-    text-align: right;
+    text-align: center;
     margin: .5rem;
 }
 
@@ -107,8 +123,6 @@ footer a {
 }
 
 .temple-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin: .5rem;
 }
 
@@ -130,14 +144,8 @@ footer a {
     margin: .5rem;
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
 .open-grid {
-    grid-row: 1/3;
+    text-align: center;
 }
 
 .social-align {
@@ -180,6 +188,58 @@ footer a {
     margin: 1rem;
 }
 
-.temple-cards img {
-    width: 75%;
+.temple-cards p {
+    margin: 0rem;
+}
+
+form {
+    background-color: #FCF6EB;
+    margin: 1rem;
+    border: 5px solid #F6E1B7;
+}
+
+form fieldset {
+    margin: .5rem;
+    border: 1px solid #090302;
+}
+
+form legend {
+    color: #090302;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.inputFormat label {
+    display: block;
+    margin: .5rem;
+}
+
+.inputFormat input, .inputFormat textarea, select{
+    font-size: 1rem;
+    border: solid 1px #090302;
+    border-radius: .25rem;
+    padding: .75rem;
+    width: 100%;
+}
+
+.inputFormat span {
+    font-size: .75rem;
+    margin-left: .5rem;
+}
+
+.radioFormat label, .radioFormat li {
+    display: block;
+    padding: .25rem;
+    margin: .25rem;
+}
+
+.radioFormat input {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    accent-color: #857E7B;
+}
+
+.radioFormat button {
+    border: solid 5px #FCF6EB;
 }

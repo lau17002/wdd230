@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites | Missionary</title>
+    <meta name="description" content="Temple Inn & Suites Missionary page has information about missionary suite options and how they can book long-term.">
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="h-grid">
+            <div class="logo-flex">            
+                <img src="images/temple-logo.jpg" alt="Temple Inn & Suites logo">
+                <h1>Temple Inn & Suites</h1>
+            </div>
+            <div class = "social-link">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook logo"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="images/link.png" alt="linkedin logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.png" alt="instagram logo"></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="temple-info">
+            <img src="images/sister-suite.jpg" alt="sister missionary suite">
+            <div>
+                <h3>Sister Missionary Suite</h3>
+                <p>The sister missionary suite includes a living room, 2 beds, a closet, and a bathroom. Suites with a 3rd bed are available if needed. Reserved parking is provided on the side of the building where the suites are located. Bike rakes
+                    are available at this location as well.
+                </p>
+                <p>Stay renewal is on a monthly basis but can be terminated at any time by request of the Mission President. Submit a request for information on pricing and availbility.</p>
+            </div>
+        </section>
+        <section class="temple-info">
+            <img src="images/elder-suite.jpg" alt="elder missionary suite">
+            <div>
+                <h3>Elder Missionary Suite</h3>
+                <p>The elder missionary suite includes a living room, 2 beds, a closet, and a bathroom. Suites with a 3rd bed are available if needed. Reserved parking is provided on the side of the building where the suites are located. Bike rakes
+                    are available at this location as well.</p>
+                <p>Stay renewal is on a monthly basis but can be terminated at any time by request of the Mission President. Submit a request for information on pricing and availbility.</p>
+            </div>
+        </section>
+        <section class="temple-info">
+            <img src="images/couple-suite.jpg" alt="elder missionary suite">
+            <div>
+                <h3>Couple Missionary Suite</h3>
+                <p>The couple missionary suite includes a small kitchen, a living room, a bedroom with a walk-in closet, and a bathroom. All couple missionary suites are on the first floor. Reserved parking is provided on the side of the building where the suites are located. 
+
+                </p>
+                <p>Stay renewal is on a monthly basis but can be terminated at any time by request of the Mission President. Submit a request for information on pricing and availbility.</p>
+            </div>    
+        </section>
+        <section>
+            <form method="get" action="thankyou.html">
+                <fieldset class="inputFormat">
+                    <legend>Personal Information</legend>
+                    <label>Fullname <input type="text" name="fullname" required></label>
+                    <label>E-mail <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label>Phone Number <input type="tel" name="phone" required></label>
+                    <label>Additional inquiries <textarea rows="3" name="description"></textarea><span>all fields are required to be filled out</span></label>
+                </fieldset>
+                <label><input type="hidden" id="submitDate" name="submitDate"></label>
+                <div id="submit-div">
+                    <input class="button" id="submit" type="submit" value="Request Information">
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="f-grid">
+            <div class="logo-flex">
+                <img src="images/temple-logo.jpg" alt="Temple Inn & Suites logo">
+                <h2>Temple Inn & Suites</h2>
+            </div>
+            <div class="contact">
+                <p>templeinn&suites@gmail.com</p>
+                <p>208-888-8888</p>
+                <br>
+                <a href="https://goo.gl/maps/PXVCJBKTwnTcSYw37" target="blank">Location Map</a>
+            </div>
+        </div>
+        <hr>
+        <p class="foot-info">&copy; <span id="curYear"></span> Temple Inn & Suites | Emily A. Lau | <span id="lastMod"></span></p>
+    </footer>
+    <script src="js/temple.js"></script>
+</body>
+</html>

@@ -5,6 +5,7 @@ const captionDesc = document.querySelector('#cond');
 const humid = document.querySelector('#humid');
 const nameCity = document.querySelector('#weatherName');
 
+
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=San Diego&units=Imperial&appid=45d46e6e004233d7386db00671da8a44';
 
 apiFetch(url);
@@ -24,8 +25,9 @@ async function apiFetch(apiURL) {
 }
 
 function displayResults(weatherData) {
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
+
+  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  const desc = weatherData.weather[0].description;
     
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
@@ -34,3 +36,4 @@ function displayResults(weatherData) {
     humid.textContent = weatherData.main.humidity;
     nameCity.textContent = weatherData.name;
 }
+

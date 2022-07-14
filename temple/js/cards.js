@@ -1,6 +1,7 @@
 const requestURL = 'json/data.json';
 const cards = document.querySelector('.cards');
 
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -8,31 +9,43 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const temple = jsonObject['temple'];
     temple.forEach(displayTemple);
-  });
-
-
-function clickCounter() {
-    if (localStorage.clickcount) {
-      localStorage.clickcount = Number(localStorage.clickcount)+1;
-    } else {
-      localStorage.clickcount = 1;
-    }
-    
-  }
+  }); 
 
 function displayTemple(temple) {
     // Create elements to add to the document
     let card = document.createElement('section');
-    let templeName = document.createElement('h2'); 
+    let templeName = document.createElement('h3'); 
     let contact = document.createElement('p');
     let picture = document.createElement('img');
     let rent = document.createElement('p');
     let address = document.createElement('p');
     let like = document.createElement('button');
 
-    like.textContent = 0;
-    like.addEventListener('click', clickCounter());
- 
+    if (temple.name == "San Diego") {
+      like.setAttribute('onclick', 'sandiego()');
+      like.setAttribute('id', 'like1')
+    }
+    else if (temple.name == "Bountiful") {
+      like.setAttribute('onclick', 'bountiful()');
+      like.setAttribute('id', 'like2')
+    }
+    else if (temple.name == "Fresno") {
+      like.setAttribute('onclick', 'fresno()');
+      like.setAttribute('id', 'like3')
+    }
+    else if (temple.name == "Los Angeles") {
+      like.setAttribute('onclick', 'angeles()');
+      like.setAttribute('id', 'like4')
+    }
+    else if (temple.name == "Sacramento") {
+      like.setAttribute('onclick', 'sacramento()');
+      like.setAttribute('id', 'like5')
+    }
+    else if (temple.name == "Redlands") {
+      like.setAttribute('onclick', 'redlands()');
+      like.setAttribute('id', 'like6')
+    }
+
     templeName.textContent = temple.name;
     contact.textContent = temple.number;
     rent.textContent = `Clothing rental: ${temple.rent}`;
@@ -53,3 +66,56 @@ function displayTemple(temple) {
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('.cards').appendChild(card);
   }
+
+  function sandiego() {
+    if (localStorage.countS) {
+      localStorage.countS = Number(localStorage.countS) + 1;
+    } else {
+      localStorage.countS = 1;
+    }
+    document.getElementById("like1").innerHTML = localStorage.countS;
+  }
+
+  function bountiful() {
+    if (localStorage.countB) {
+      localStorage.countB = Number(localStorage.countB) + 1;
+    } else {
+      localStorage.countB = 1;
+    }
+    document.getElementById("like2").innerHTML = localStorage.countB;
+  }
+
+  function fresno() {
+    if (localStorage.countF) {
+      localStorage.countF = Number(localStorage.countF) + 1;
+    } else {
+      localStorage.countF = 1;
+    }
+    document.getElementById("like3").innerHTML = localStorage.countF;
+  }
+  function angeles() {
+    if (localStorage.countA) {
+      localStorage.countA = Number(localStorage.countA) + 1;
+    } else {
+      localStorage.countA = 1;
+    }
+    document.getElementById("like4").innerHTML = localStorage.countA;
+  }
+  function sacramento() {
+    if (localStorage.countM) {
+      localStorage.countM = Number(localStorage.countM) + 1;
+    } else {
+      localStorage.countM = 1;
+    }
+    document.getElementById("like5").innerHTML = localStorage.countM;
+  }
+  function redlands() {
+    if (localStorage.countR) {
+      localStorage.countR = Number(localStorage.countR) + 1;
+    } else {
+      localStorage.countR = 1;
+    }
+    document.getElementById("like6").innerHTML = localStorage.countR;
+  }
+
+
