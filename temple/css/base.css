@@ -50,6 +50,14 @@ button, .button {
     padding: .5rem;
 }
 
+#rooms {
+    width: fit-content;
+}
+
+.submit-button, #rooms {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0rem;
@@ -134,7 +142,7 @@ footer a {
     margin: 1rem;
 }
 
-.temple-info img {
+.temple-info img, iframe {
     margin-right: 1rem;
 }
 
@@ -194,7 +202,7 @@ footer a {
 
 form {
     background-color: #FCF6EB;
-    margin: 1rem;
+    margin: .5rem;
     border: 5px solid #F6E1B7;
 }
 
@@ -205,13 +213,15 @@ form fieldset {
 
 form legend {
     color: #090302;
-    margin: .5rem;
-    padding: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: 1.25rem;
 }
 
 .inputFormat label {
     display: block;
-    margin: .5rem;
+    margin-top: .5rem;
+
 }
 
 .inputFormat input, .inputFormat textarea, select{
@@ -220,6 +230,7 @@ form legend {
     border-radius: .25rem;
     padding: .75rem;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .inputFormat span {
@@ -242,4 +253,8 @@ form legend {
 
 .radioFormat button {
     border: solid 5px #FCF6EB;
+}
+
+#fromDate, #toDate {
+    width: fit-content;
 }

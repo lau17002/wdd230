@@ -40,7 +40,34 @@
         </nav>
     </header>
     <main>
-
+        <section class="temple-info">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050188057963!2d-77.0955318!3d38.9832518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1657812808511!5m2!1sen!2sus" width="400" height="264" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <h3>Contact Information</h3>
+                <p>templeinn&suites@gmail.com<br>
+                    All emails will be reviewed and responded to within 48 hours. Inquiries
+                    through the reservation or missionary contact form have first priority. 
+                </p>
+                <p>208-888-8888<br>
+                    Phone calls not answered will be returned within 2 hours. If plausible
+                    please leave a message so that we are aware of the nature of the call.
+                </p>
+            </div>    
+        </section>
+            <form method="get" action="thankyou.html">
+                <fieldset class="inputFormat">
+                    <legend>Personal Information</legend>
+                    <label>Fullname <input type="text" name="fullname" required></label>
+                    <label>E-mail <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label>Phone Number <input type="tel" name="phone" required></label>
+                    <label>Reason for contact request <textarea rows="3" name="description"></textarea><span>all fields are required to be filled out except for the comment section</span></label>
+                </fieldset>
+                <label><input type="hidden" id="submitDate" name="submitDate"></label>
+                <div class="submit-button">
+                    <input class="button" id="submit" type="submit" value="Contact Us">
+                </div>
+            </form>  
+        </section>
     </main>
     <footer>
         <div class="f-grid">
@@ -59,6 +86,5 @@
         <p class="foot-info">&copy; <span id="curYear"></span> Temple Inn & Suites | Emily A. Lau | <span id="lastMod"></span></p>
     </footer>
     <script src="js/temple.js"></script>
-    <script src="js/cards.js"></script>
 </body>
 </html>
