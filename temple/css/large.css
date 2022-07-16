@@ -20,6 +20,10 @@
         margin: .5rem;
     }
 
+    .temple-info img, iframe {
+        margin: 0 .5rem;
+    }
+
     .media {
         display: block;
     }

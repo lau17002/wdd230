@@ -50,7 +50,13 @@
     }
 
     .forecast {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 4fr;
+    }
+
+    .forecast h3:nth-child(1) {
+        grid-column: 1/4;
     }
 
     #services {
@@ -58,7 +64,17 @@
         grid-template-columns: 1fr 1fr;
         margin: 1rem;
     }
+
+    .shuttle {
+        grid-column: 1/4;
+    }
+
+    iframe {
+        width: 400px;
+        height: 264px;
+    }
 }
+
 
 
 

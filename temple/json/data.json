@@ -14,7 +14,8 @@
         "imageurlMedium": "images/sandiego-medium.jpg",
         "imageurlLarge": "images/sandiego-large.jpg",
         "rent": "available",
-        "index": "1"
+        "lat": "32.715736",
+        "lon": "-117.161087"
       },
       {
         "name": "Bountiful",
@@ -30,7 +31,8 @@
         "imageurlMedium": "images/bountiful-medium.jpg",
         "imageurlLarge": "images/bountiful-large.jpg",
         "rent": "available",
-        "index": "2"
+        "lat": "40.889389",
+        "lon": "-111.880768"
       },
       {
         "name": "Fresno",
@@ -46,7 +48,8 @@
         "imageurlMedium": "images/fresno-medium.jpg",
         "imageurlLarge": "images/fresno-large.jpg",
         "rent": "not available",
-        "index": "3"
+        "lat": "36.746841",
+        "lon": "-119.772591"
       },
       {
         "name": "Los Angeles",
@@ -62,7 +65,8 @@
         "imageurlMedium": "images/angeles-medium.jpg",
         "imageurlLarge": "images/angeles-large.jpg",
         "rent": "available",
-        "index": "4"
+        "lat": "34.059761",
+        "lon": "-118.276802"
       },
       {
         "name": "Sacramento",
@@ -78,7 +82,8 @@
         "imageurlMedium": "images/sacramento-medium.jpg",
         "imageurlLarge": "images/sacramento-large.jpg",
         "rent": "not available",
-        "index": "5"
+        "lat": "38.575764",
+        "lon": "-121.478851"
       },
       {
         "name": "Redlands",
@@ -94,7 +99,8 @@
         "imageurlMedium": "images/redland-medium.jpg",
         "imageurlLarge": "images/redland-large.jpg",
         "rent": "not available",
-        "index": "6"
+        "lat": "34.055569",
+        "lon": "-117.182541"
       }
     ]
 }

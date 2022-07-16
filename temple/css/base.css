@@ -14,7 +14,7 @@ header {
 
 h1, h2, h3, h4 {
     font-family: 'Teko', sans-serif;
-    margin-top: 0rem;
+    margin-top: .5rem;
     margin-bottom: 0rem;
 }
 
@@ -56,6 +56,10 @@ button, .button {
 
 .submit-button, #rooms {
     text-align: center;
+}
+
+#submit {
+    margin-bottom: .5rem;
 }
 
 ul {
@@ -143,7 +147,13 @@ footer a {
 }
 
 .temple-info img, iframe {
-    margin-right: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;
 }
 
 .colored {
@@ -257,4 +267,9 @@ form legend {
 
 #fromDate, #toDate {
     width: fit-content;
+}
+
+.thank {
+    text-align: center;
+    margin: 8rem;
 }
