@@ -1,20 +1,16 @@
 const requestURL = 'json/data.json';
 const cards = document.querySelector('.temple-info');
 
-jsonFetch(requestURL);
+jsonFetch();
 
-async function jsonFetch(requestURL) {
+async function jsonFetch() {
   try {
     const response = await fetch(requestURL);
     if (response.ok) {
       const data = await response.json();
-      let temple = data.temple;
-      let rand = Math.floor(Math.random() * temple.length);
+      const temple = data.temple;
+      const rand = Math.floor(Math.random() * temple.length);
       displayTemple(temple[rand]);
-      let lat = temple[rand].lat;
-      let lon = temple[rand].lon;
-      const url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=minutely,hourly&units=Imperial&appid=45d46e6e004233d7386db00671da8a44`;
-      apiFetch(url);
     } else {
       throw Error(await response.text());
     }
@@ -70,7 +66,8 @@ const captionDesc = document.querySelector('#cond');
 const humid = document.querySelector('#humid');
 const nameCity = document.querySelector('#weatherName');
 
-
+let url = `https://api.openweathermap.org/data/2.5/onecall?lat=32.715736&lon=-117.161087&exclude=minutely,hourly&units=Imperial&appid=45d46e6e004233d7386db00671da8a44`;
+apiFetch(url);
 
 async function apiFetch(apiURL) {
     try {
@@ -97,16 +94,18 @@ function displayResults(weatherData) {
   curTemp.textContent = `${(weatherData.current.temp).toFixed(1)}°F`;
   humid.textContent = weatherData.current.humidity;
 
-  for (let i = 0; i < 3; i++) {
+  for (let i = 1; i < 4; i++) {
     let time = weatherData.daily[i];
     let card = document.createElement('div');
-    let curDay = document.createElement('h3');
+    let curDay = document.createElement('h4');
     let grid = document.createElement('div');
     let image = document.createElement('img');
     let temp = document.createElement('p');
     let cond = document.createElement('p');
     let breakLine = document.createElement('hr');
     let humid2 = document.createElement('p');
+
+    const date = new Date(time.dt * 1000).toLocaleDateString('en-us', {weekday: "long"});
 
     card.setAttribute('class', 'weather');
     grid.setAttribute('class', 'weather-grid');
@@ -116,7 +115,7 @@ function displayResults(weatherData) {
     cond.innerHTML = time.weather[0].description;
     temp.textContent = `${(time.temp.day).toFixed(1)}°F`;
     humid2.textContent = `Humidity: ${time.humidity}%`;
-    curDay.textContent = data.name;
+    curDay.textContent = date;
 
     grid.appendChild(image);
     grid.appendChild(temp);
@@ -129,6 +128,7 @@ function displayResults(weatherData) {
     document.querySelector('.forecast').appendChild(card);
   }
 }
+
 
 
 

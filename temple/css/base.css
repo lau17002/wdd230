@@ -273,3 +273,11 @@ form legend {
     text-align: center;
     margin: 8rem;
 }
+
+#numLikes {
+    display: inline;
+}
+
+#likebtn {
+    margin: 0rem .5rem .5rem;
+}
