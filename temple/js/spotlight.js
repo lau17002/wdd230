@@ -65,7 +65,6 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#cond');
 const humid = document.querySelector('#humid');
 const nameCity = document.querySelector('#weatherName');
-const weatherAlert = document.querySelector('#weather-alert');
 
 let url = `https://api.openweathermap.org/data/2.5/onecall?lat=40.7608&lon=-111.8910&exclude=minutely,hourly&units=Imperial&appid=45d46e6e004233d7386db00671da8a44`;
 apiFetch(url);
@@ -86,8 +85,27 @@ async function apiFetch(apiURL) {
 
 function displayResults(weatherData) {
 
+  if ('alerts' in weatherData) {
+    const weatherAlert = document.querySelector('#weather-alert');
+    let event = document.createElement(p);
+    event.textContent = weatherData.alerts.event + weatherData.alerts.sender_name;
+    let desc = document.createElement(p);
+    desc.textContent = weatherData.alerts.description;
+
+    weatherAlert.appendChild(event);
+    weatherAlert.appendChild(desc);
+
+    weatherAlert.addEventListener('onclick', () => {
+      weatherAlert.removeChild(event);
+      weatherAlert.removeChild(desc);
+    }
+     )
+
+  }
+
   let iconsrc = `https://openweathermap.org/img/w/${weatherData.current.weather[0].icon}.png`;
   let desc = weatherData.current.weather[0].description;
+
     
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
@@ -129,7 +147,6 @@ function displayResults(weatherData) {
 
     document.querySelector('.forecast').appendChild(card);
   }
-  weatherAlert.textContent = weatherData.alerts.start;
 }
 
 

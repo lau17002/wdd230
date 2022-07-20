@@ -40,7 +40,7 @@ p {
 
 a, button, .button {
     text-decoration: none;
-    background-color: #857E7B;
+    background-color: #726e6b;
     color: #FCF6EB;
     padding: 1rem;
     border: none;
@@ -190,7 +190,7 @@ iframe {
 }
 
 #threeday {
-    border: 1px solid #857E7B;
+    border: 1px solid #726e6b;
     margin: .5rem;
 }
 
@@ -265,7 +265,7 @@ form legend {
     width: 1rem;
     height: 1rem;
     vertical-align: middle;
-    accent-color: #857E7B;
+    accent-color: #726e6b;
 }
 
 .radioFormat button {
