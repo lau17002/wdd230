@@ -44,8 +44,12 @@
             <fieldset class="inputFormat">
                 <legend>Hotel Selection</legend>
                 <label>Location <select name="locations" id="location-hotel"><option value="select prompt">Select</option></select></label>
-                <label class="submit-button">From <input id="fromDate" type="date" name="start date" required> to <input id="toDate" type="date" name="end date" required> <input type="button" name="quantity" id="rooms" class="button" value="Add Room (Max 5)" required></label>
-                <ul class="list radioFormat" required></ul>
+                <div class="calendar">
+                    <label class="fromto">From <input id="fromDate" type="date" name="start date"></label>
+                    <label class="fromto">to <input id="toDate" type="date" name="end date"></label>
+                </div>
+                <label class="submit-button"><input type="button" name="quantity" id="rooms" class="button" value="Add Room (Max 5)"></label>
+                <ul class="list radioFormat"></ul>
             </fieldset>
             <fieldset class="inputFormat">
                 <legend>Personal Information</legend>
@@ -60,7 +64,6 @@
                 <input class="button" id="submit" type="submit" value="Make Reservation">
             </div>
         </form>  
-    </main>
     </main>
     <footer>
         <div class="f-grid">

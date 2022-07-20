@@ -96,7 +96,6 @@ li a {
 }
 
 footer {
-    display: fixed;
     bottom: 0;
 }
 
@@ -136,14 +135,17 @@ footer a {
 
 .temple-info {
     margin: .5rem;
+    text-align: center;
 }
 
 .temple-info p {
     margin-bottom: 2rem;
+    text-align: left;
 }
 
 .temple-info a {
     margin: 1rem;
+
 }
 
 .temple-info img, iframe {
@@ -185,6 +187,11 @@ iframe {
 
 .weather {
     text-align: center;
+}
+
+#threeday {
+    border: 1px solid #857E7B;
+    margin: .5rem;
 }
 
 .weather p {
@@ -265,10 +272,6 @@ form legend {
     border: solid 5px #FCF6EB;
 }
 
-#fromDate, #toDate {
-    width: fit-content;
-}
-
 .thank {
     text-align: center;
     margin: 8rem;
@@ -281,3 +284,9 @@ form legend {
 #likebtn {
     margin: 0rem .5rem .5rem;
 }
+
+#rooms {
+    margin: .5rem;
+}
+
+

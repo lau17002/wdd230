@@ -45,7 +45,7 @@ function displayTemple(temple) {
     on ${temple.ground} and it opened for use when it was dedicated on ${temple.dedicate}. The next 
     closing date is ${temple.closure} so plan your trip accordingly! Clothing rentals are ${temple.rent} 
     for patrons.`
-    link.textContent = 'Make a resevation!';
+    link.textContent = 'Make a reservation!';
 
     picture.appendChild(large);
     picture.appendChild(medium);
@@ -65,8 +65,9 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#cond');
 const humid = document.querySelector('#humid');
 const nameCity = document.querySelector('#weatherName');
+const weatherAlert = document.querySelector('#weather-alert');
 
-let url = `https://api.openweathermap.org/data/2.5/onecall?lat=32.715736&lon=-117.161087&exclude=minutely,hourly&units=Imperial&appid=45d46e6e004233d7386db00671da8a44`;
+let url = `https://api.openweathermap.org/data/2.5/onecall?lat=40.7608&lon=-111.8910&exclude=minutely,hourly&units=Imperial&appid=45d46e6e004233d7386db00671da8a44`;
 apiFetch(url);
 
 async function apiFetch(apiURL) {
@@ -108,6 +109,7 @@ function displayResults(weatherData) {
     const date = new Date(time.dt * 1000).toLocaleDateString('en-us', {weekday: "long"});
 
     card.setAttribute('class', 'weather');
+    card.setAttribute('id', 'threeday');
     grid.setAttribute('class', 'weather-grid');
 
     image.setAttribute('src', `https://openweathermap.org/img/w/${time.weather[0].icon}.png`);
@@ -121,12 +123,13 @@ function displayResults(weatherData) {
     grid.appendChild(temp);
     card.appendChild(curDay);
     card.appendChild(grid);
-    card.appendChild(cond);
     card.appendChild(breakLine);
+    card.appendChild(cond);
     card.appendChild(humid2);
 
     document.querySelector('.forecast').appendChild(card);
   }
+  weatherAlert.textContent = weatherData.alerts.start;
 }
 
 
